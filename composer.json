@@ -1,0 +1,7 @@
+{
+    "name": "jmarianski/jackin-framework",
+    "description": "Jackin framework for simple http or console requests with advanced custom routing",
+    "autoload": {
+        "psr-4": {"Jackin\\": "src/"}
+    }
+}
