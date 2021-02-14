@@ -81,7 +81,6 @@ class Router
         $routes = [];
         foreach ($allFiles as $fileName) {
             $className = FileTools::getClassName($fileName);
-            var_dump($className);
             if (is_string($className) && is_subclass_of($className, BaseController::class, true)) {
                 $type = $className::getType();
                 $route = $className::getRoute();
